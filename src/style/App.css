@@ -14,9 +14,10 @@ body {
   scroll-behavior: smooth;
   font-family: "Syne", sans-serif;
   color: #5bbfd6ad;
+  overflow-x: hidden;
 }
 
-.luz-cursor {
+.luz-curso {
   position: fixed;
   width: 250px;
   height: 250px;

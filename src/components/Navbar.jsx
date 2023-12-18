@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "../assets/logoOctopus.png";
 import { motion } from "framer-motion";
-import blur from "../assets/Vector 8.png"
-
+import blur from "../assets/Vector 8.png";
 
 const Navbar = () => {
   const menu = [
@@ -29,21 +28,7 @@ const Navbar = () => {
         <a className="relative" href="#">
           {" "}
           <img className="w-[150px]" src={logo} alt="logo OctopusDev" />
-          <motion.img
-            animate={{
-              scale: [ 1, 1.2, 1.4, 1.6, 1.8, 1.6, 1.4, 1.2, 1, ]
-            }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-              times: [0, 0.2, 0.4, 0.6, 0.8, 1],
-              repeat: Infinity,
-              repeatDelay: 1,
-            }}
-            className="absolute top-0  z-0"
-            src={blur}
-            alt="blur"
-          />
+         
         </a>
       </div>
       <ul className="hidden md:flex items-center gap-[60px]">

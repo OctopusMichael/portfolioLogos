@@ -1,13 +1,12 @@
 import avatar from "../assets/michael-perfil.jpg";
 import blur from "../assets/Vector 8.png";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <section className="md:mb-[150px] ">
       <div className="container flex flex-col gap-[50px] md-gap-0 md:flex-row justify-between md:px-[80px]  ">
-        <div className="order-2 md:order-1 flex flex-col  items-center md:items-start   ,justify-center gap-[50px]   text-white md:w-2/4 md:p-[80px]  relative  ">
-          <motion.img
+        <div className="order-2 md:order-1 flex flex-col  items-center md:items-start  px-[40px] justify-center gap-[50px]  md:px-[0px]  text-white md:w-2/4 md:p-[80px]  relative  ">
+          <img
             className=" hidden  md:block  absolute top-[0px] -left-[200px] z-0 "
             src={blur}
             alt="blur"
@@ -25,7 +24,11 @@ const About = () => {
           </button>
         </div>
         <div className="order-1 md:order-2 md:w-2/4 flex   justify-center items-center  ">
-          <img className="w-[270px] md:w-[450px] md:h-[650px] rounded-3xl" src={avatar} alt="avatar" />
+          <img
+            className="w-[270px] md:w-[450px] md:h-[650px] rounded-3xl"
+            src={avatar}
+            alt="avatar"
+          />
         </div>
       </div>
     </section>
