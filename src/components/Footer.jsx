@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="flex md:flex-row flex-col justify-between items-center">
           <a href="#">
-            <img className="w-[200px] " src={logo} alt="logo Octopus" />
+            <img className="w-[200px] h-auto " src={logo} alt="logo Octopus" />
           </a>
           <div className="flex flex-col text-center md:text-start gap-2 text-[24px] md:text-[30px]">
             <h1>Santa marta, Colombia</h1>

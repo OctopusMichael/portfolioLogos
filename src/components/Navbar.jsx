@@ -24,7 +24,7 @@ const Navbar = () => {
       <div>
         <a className="relative" href="#">
           {" "}
-          <img className="w-[200px] md:w-[150px]" src={logo} alt="logo OctopusDev" />
+          <img className="w-[200px] md:w-[150px] h-auto" src={logo} alt="logo OctopusDev" />
         </a>
       </div>
       <ul className=" hidden  md:flex items-center gap-[60px]">

@@ -6,7 +6,7 @@ const Testimonials = () => {
       <div className="container ">
         <div className=" flex-col flex gap-5 text-white p-[40px] md:p-[80px] md:pe-[300px] relative">
           <img
-            className=" absolute -top-[50px] left-0 md:-top-[150px] md:-left-[200px] z-0"
+            className=" w-auto h-auto absolute -top-[50px] left-0 md:-top-[150px] md:-left-[200px] z-0"
             src={blur}
             alt="blur"
           />

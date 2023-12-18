@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="container flex flex-col gap-[50px]">
         <div className="flex flex-col justify-center items-center gap-[50px] relative ">
           <img
-            className="  absolute  -top-[140px] md:-top-[250px] md:right-0  z-0 "
+            className=" w-auto h-auto  absolute  -top-[140px] md:-top-[250px] md:right-0  z-0 "
             src={blur}
             alt="blur"
           />

@@ -15,7 +15,7 @@ const Hero = () => {
             Explore Works <MoveRight />
           </button>
           <img
-            className="  absolute -top-[100px] left-0 md:-right-[150px] z-0"
+            className="  w-auto h-auto absolute -top-[100px] left-0 md:-right-[150px] z-0"
             src={blur}
             alt="blur"
           />

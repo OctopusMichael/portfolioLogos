@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="order-1 md:order-2 md:w-2/4 flex   justify-center items-center  ">
           <img
-            className="w-[270px] md:w-[450px] md:h-[650px] rounded-3xl"
+            className="w-[270px] md:w-[450px] h-auto md:h-[650px] rounded-3xl"
             src={avatar}
             alt="avatar"
           />
