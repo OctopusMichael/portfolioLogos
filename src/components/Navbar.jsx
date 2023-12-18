@@ -28,10 +28,9 @@ const Navbar = () => {
         <a className="relative" href="#">
           {" "}
           <img className="w-[150px]" src={logo} alt="logo OctopusDev" />
-         
         </a>
       </div>
-      <ul className="hidden md:flex items-center gap-[60px]">
+      <ul className=" hidden  md:flex items-center gap-[60px]">
         {menu.map((e) => (
           <li key={e.id}>
             <a
