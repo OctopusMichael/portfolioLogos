@@ -1,7 +1,4 @@
-import React from "react";
 import logo from "../assets/logoOctopus.png";
-import { motion } from "framer-motion";
-import blur from "../assets/Vector 8.png";
 
 const Navbar = () => {
   const menu = [
@@ -27,7 +24,7 @@ const Navbar = () => {
       <div>
         <a className="relative" href="#">
           {" "}
-          <img className="w-[150px]" src={logo} alt="logo OctopusDev" />
+          <img className="w-[200px] md:w-[150px]" src={logo} alt="logo OctopusDev" />
         </a>
       </div>
       <ul className=" hidden  md:flex items-center gap-[60px]">

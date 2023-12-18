@@ -7,7 +7,7 @@ const About = () => {
       <div className="container flex flex-col gap-[50px] md-gap-0 md:flex-row justify-between md:px-[80px]  ">
         <div className="order-2 md:order-1 flex flex-col  items-center md:items-start  px-[40px] justify-center gap-[50px]  md:px-[0px]  text-white md:w-2/4 md:p-[80px]  relative  ">
           <img
-            className=" hidden  md:block  absolute top-[0px] -left-[200px] z-0 "
+            className="   absolute top-[0px] left-0 md:-left-[200px] z-0 "
             src={blur}
             alt="blur"
           />
