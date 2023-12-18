@@ -19,7 +19,7 @@ const Projects = () => {
             Explore Works <MoveRight />
           </button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer   place-items-center     md:gap-x-5 gap-y-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer   place-items-center      md:gap-x-5 gap-y-[100px]">
           {data.map((e) => (
             <div
               className="flex flex-col px-[40px] md:px-[0px]   gap-5"
@@ -30,12 +30,12 @@ const Projects = () => {
                 src={e.image}
                 alt={e.name}
               />
-              <div className="flex flex-col gap-2 ">
+              <div className="flex flex-col gap-2 p-5 md:p-0  ">
                 <h1 className="text-[30px] font-bold text-white">{e.name} </h1>
                 <h2 className="text-[#9EA3AE] flex gap-5">
                   Client: <span className="text-white">{e.client} </span>
                 </h2>
-                <h2 className="text-[#9EA3AE] flex gap-5">
+                <h2 className="text-[#9EA3AE] flex   gap-5">
                   work:
                   {e.work.map((element) => (
                     <span key={element} className="text-white">
