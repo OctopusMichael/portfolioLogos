@@ -1,4 +1,4 @@
-import blur from "../assets/Vector 8.png";
+import blur from "../assets/Vector 8.webp";
 
 const Testimonials = () => {
   return (

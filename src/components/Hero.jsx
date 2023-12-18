@@ -1,4 +1,4 @@
-import blur from "../assets/Vector 8.png";
+import blur from "../assets/Vector 8.webp";
 import { MoveRight } from "lucide-react";
 import Navbar from "./Navbar";
 

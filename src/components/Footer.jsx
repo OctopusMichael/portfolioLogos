@@ -1,4 +1,4 @@
-import logo from "../assets/logoOctopus.png";
+import logo from "../assets/logoOctopus.webp";
 import { FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react";
 /* import blur from "../assets/Vector 8.png" */
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="h-px bg-[#F4F4F6] my-[10px] " />
-        <h1 className="text-center mt-[20px] text-[24px] md:text-[30px]">
+        <h1 className="text-center mt-[20px] text-[20px] md:text-[30px]">
           © 2023. <a href=""></a> OctopusDev. All rights reserved.{" "}
         </h1>
       </div>

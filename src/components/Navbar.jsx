@@ -1,4 +1,4 @@
-import logo from "../assets/logoOctopus.png";
+import logo from "../assets/logoOctopus.webp";
 
 const Navbar = () => {
   const menu = [

@@ -1,6 +1,6 @@
 import { MoveRight } from "lucide-react";
 import data from "../json/projects.json";
-import blur from "../assets/Vector 8.png";
+import blur from "../assets/Vector 8.webp";
 
 const Projects = () => {
   return (
