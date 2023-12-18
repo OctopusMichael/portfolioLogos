@@ -30,7 +30,7 @@ const Projects = () => {
                 src={e.image}
                 alt={e.name}
               />
-              <div className="flex flex-col gap-2 p-5 md:p-0  ">
+              <div className="flex flex-col gap-2 px-5 md:p-0  ">
                 <h1 className="text-[30px] font-bold text-white">{e.name} </h1>
                 <h2 className="text-[#9EA3AE] flex gap-5">
                   Client: <span className="text-white">{e.client} </span>
