@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="mb-[150px]">
-      
+      <Navbar />
       <div className=" container  h-auto  flex justify-center items-center ">
         <div className="flex flex-col gap-[50px] justify-center items-center relative">
           <h1 className="text-[38px] md:text-[48px] text-white text-center font-bold">

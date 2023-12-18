@@ -23,7 +23,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className=" container p-[80px] md:p-0 md:px-[80px] flex justify-center md:justify-between items-center">
+    <nav className=" container p-[80px] md:p-0 md:px-[80px] flex justify-center md:justify-between items-center z-10">
       <div>
         <a className="relative" href="#">
           {" "}
