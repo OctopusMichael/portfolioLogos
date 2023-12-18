@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="mb-[150px]">
       <Navbar />
-      <div className=" container  h-auto  flex justify-center items-center ">
+      <div className=" container  h-auto  flex justify-center items-center md:mt-[50px]">
         <div className="flex flex-col gap-[50px] justify-center items-center relative ">
           <h1 className="text-[38px] md:text-[48px] text-white text-center font-bold">
             Adaptive Logo Design <br /> for Your Brand
@@ -15,7 +15,7 @@ const Hero = () => {
             Explore Works <MoveRight />
           </button>
           <img
-            className="  w-auto h-auto absolute -top-[100px] left-0 md:-right-[150px] z-0"
+            className="  w-auto h-auto absolute -top-[100px]  md:-right-[150px] z-0"
             src={blur}
             alt="blur"
           />

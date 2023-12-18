@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#131313]">
       <div className="container   text-white ">
-        <div className="flex flex-col gap-2 mb-[100px] p-[50px] justify-center items-center">
+        <div className="flex flex-col gap-2 md:mb-[100px] p-[50px] justify-center items-center">
           <h3 className="text-[20px] md:text-[28px] text-blueAqua">
             Get in Touch With Us
           </h3>
